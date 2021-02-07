@@ -23,7 +23,7 @@ this is a variation of a code snippet from mozilla
 
 order
 -------
-learn robot text to speech by reading docs
+learn robot text to speech by reading docs X
 learn how to build animation sprite and also animation
 learn div flip 
 begin coding by building divs and use flexbox to arrange the divs in an asthetic order
