@@ -2,8 +2,10 @@ function speech(message){
 let synth = window.speechSynthesis;
 let voices = synth.getVoices()
  let utterThis = new SpeechSynthesisUtterance(message)
-    utterThis.voice = voices[1]
-synth.speak(utterThis)}
+ utterThis.voice = voices[1]
+synth.speak(utterThis)
+ }
+   
 
 function changeFunc() {
     var selectBox = document.getElementById("questions");
@@ -29,6 +31,11 @@ function changeFunc() {
             Choose any option to get info on Matt's portfolio  `;
             speech("Choose any option to get info on Matt's portfolio  ")
             break;
-        
+            case "project":
+                box.innerHTML = `
+                <h1><u>Maxine says:</u> </h1>
+               Click the project widget to learn more about the project.  `;
+                speech("Click the project widget to learn more about the project. ")
+                break;
   }
    }
