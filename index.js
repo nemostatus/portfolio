@@ -11,13 +11,21 @@ function changeFunc() {
    let box = document.getElementById("message")
   switch(selectedValue){
       case "about":
-      box.innerHTML = "Matthew is a full stack developer who created me and the other projects below.";
+      box.innerHTML = 
+      `
+      <h1><u>Maxine says:</u> </h1>
+      <p>Matthew is a full stack developer who created me and the other projects below.  <p>`;
       break;
       case "maxine":
-        box.innerHTML = "I'm maxine. I'm here to help you navigate matthew's portfolio. ";
+        box.innerHTML = `
+        <h1><u>Maxine says:</u> </h1>
+        I'm maxine. I'm here to help you navigate matthew's portfolio. `;
         break;
         case "nav":
-            box.innerHTML = "Choose any option to get info on Matt's portfolio ";
+            box.innerHTML = `
+            <h1><u>Maxine says:</u> </h1>
+            Choose any option to get info on Matt's portfolio  `;
             break;
+        
   }
    }
