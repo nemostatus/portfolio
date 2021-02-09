@@ -14,17 +14,20 @@ function changeFunc() {
       box.innerHTML = 
       `
       <h1><u>Maxine says:</u> </h1>
-      <p>Matthew is a full stack developer who created me and the other projects below.  <p>`;
+      <p>Matthew is a full stack developer who created me and the other projects below.  <p>`
+    speech("Matthew is a full stack developer who created me and the other projects below. ");
       break;
       case "maxine":
         box.innerHTML = `
         <h1><u>Maxine says:</u> </h1>
         I'm maxine. I'm here to help you navigate matthew's portfolio. `;
+        speech(" I'm maxine. I'm here to help you navigate matthew's portfolio. ")
         break;
         case "nav":
             box.innerHTML = `
             <h1><u>Maxine says:</u> </h1>
             Choose any option to get info on Matt's portfolio  `;
+            speech("Choose any option to get info on Matt's portfolio  ")
             break;
         
   }
