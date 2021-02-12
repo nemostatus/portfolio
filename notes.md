@@ -29,3 +29,11 @@ learn div flip
 begin coding by building divs and use flexbox to arrange the divs in an asthetic order
 build sprite avatar div and its speech box next to it
 build dropdown list of questions to the sprite can respond to
+
+TO DO THIS SESSION
+---------------------
+1.Make divs with a title of project and div flip
+
+ISSUES TO FIX
+---------------
+1.voice synth voice is male at first then turns to female voice, I want to fix this
