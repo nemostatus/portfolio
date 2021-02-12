@@ -8,8 +8,8 @@ synth.speak(utterThis)
    
 
 function changeFunc() {
-    var selectBox = document.getElementById("questions");
-    var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+    let selectBox = document.getElementById("questions");
+    let selectedValue = selectBox.options[selectBox.selectedIndex].value;
    let box = document.getElementById("message")
   switch(selectedValue){
       case "about":
