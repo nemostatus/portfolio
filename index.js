@@ -34,8 +34,8 @@ function changeFunc() {
             case "project":
                 box.innerHTML = `
                 <h1><u>Maxine says:</u> </h1>
-               Click the project widget to learn more about the project.  `;
-                speech("Click the project widget to learn more about the project. ")
+               Click the project menu to learn more about the project.  `;
+                speech("Click the project menu to learn more about the project. ")
                 break;
   }
    }
