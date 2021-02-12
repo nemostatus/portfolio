@@ -37,6 +37,7 @@ TO DO THIS SESSION
 ISSUES TO FIX
 ---------------
 1.voice synth voice is male at first then turns to female voice, I want to fix this
+2.have hover effect match nav color also make the font white when hover
 
 i want this on the front<br>
 Projects Tracker<br>
