@@ -37,3 +37,19 @@ TO DO THIS SESSION
 ISSUES TO FIX
 ---------------
 1.voice synth voice is male at first then turns to female voice, I want to fix this
+
+i want this on the front<br>
+Projects Tracker<br>
+i want this on the back with the decription <br>
+https://github.com/nemostatus/sinatra-application
+
+     front<br>
+    Move Atlas
+        back<br>
+        https://github.com/nemostatus/move_atlas
+
+           front<br>
+        Social Anxiety Challenge
+        back<br>
+       
+       changing it up creating one big div that is dynamic and fills up when selected from dropdown list
