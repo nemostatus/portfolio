@@ -33,6 +33,7 @@ build dropdown list of questions to the sprite can respond to
 TO DO THIS SESSION
 ---------------------
 1.Make divs with a title of project and div flip
+    <i class="fas fa-compass"></i>
 
 ISSUES TO FIX
 ---------------
