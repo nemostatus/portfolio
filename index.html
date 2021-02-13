@@ -14,10 +14,11 @@
     <style>
       #message {
         border: 4px solid black;
-        width: 300px;
+        width: 500px;
         height: 200px;
         margin-bottom: 35px;
         font-size: 20px;
+  
       }
       .turn:hover {
         background-color: rgb(77, 226, 226);
@@ -53,22 +54,26 @@
   <body>
     <div id="Nav">
   
-      <div id="dropdownNav">
-     
+     <div id="dropdownNav">
+       
         <select name="questions" id="questions" onChange="changeFunc()">
-         <option value="nav">Navigate</option>
+         <option value="nav"> Navigate</option>
           <option value="about">About Matthew</option>
           <option value="maxine">Who's Maxine?</option>
           <option value="project">Projects</option>
         </select>
       </div>
     </div>
+    
     <div id="message">
+    
       <h1><u>Maxine says:</u></h1>
+     
       <p>
         Welcome to Matthew's portfolio, if you need any information, just ask me
         from the dropdown menu.
       </p>
+
     </div>
     <div id="projectFrontDiv" class="projectFrontDiv">
       <h1><u>Projects</u></h1>

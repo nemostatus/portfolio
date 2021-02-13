@@ -1,13 +1,16 @@
 function speech(message){
-let synth = window.speechSynthesis;
+let synth = window.speechSynthesis
 let voices = synth.getVoices()
- let utterThis = new SpeechSynthesisUtterance(message)
- utterThis.voice = voices[1]
-synth.speak(utterThis)
- }
-   
 
-function changeFunc() {
+ let utterThis = new SpeechSynthesisUtterance(message)
+if(voices.length!=0){
+ utterThis.voice = voices[3]
+synth.speak(utterThis)}
+else{
+console.log("need to solve this problem")
+  }}
+ 
+  function changeFunc() {
     let selectBox = document.getElementById("questions");
     let selectedValue = selectBox.options[selectBox.selectedIndex].value;
    let box = document.getElementById("message")
