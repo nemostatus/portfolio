@@ -45,11 +45,27 @@
       }
       .projectFrontDiv {
         border: 5px solid black;
-        width: 700px;
-        height: 300px;
+        width: 100%;
+        height:100%;
         text-align: center;
         font-size: 25px;
+        backface-visibility: hidden;
         margin: auto;
+        position:absolute
+   
+      }
+
+      .projectBackDiv {
+        border: 5px solid black;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        backface-visibility: hidden;
+        font-size: 25px;
+        margin: auto;
+        position:absolute;
+        transform: rotateY(180deg);
+       
       }
       #dropdownNav * {
         font-size: 20px;
@@ -65,6 +81,27 @@
         font-family: 'Oswald', sans-serif;
         overflow: hidden;
       }
+      .cardContainer{
+        position:relative;
+       width: 700px;
+        height: 300px;
+        margin: auto;
+        
+        font-size: 25px;
+        }
+
+        .card{
+          overflow: visible;
+          position:relative;
+          width: 100%;
+        height: 100%;
+       transform-style: preserve-3d;
+        transition: all 0.5% ease 
+        }
+
+        .card:hover{
+          transform: rotateY(180deg);
+        }
     </style>
   </head>
   <body>
@@ -92,9 +129,13 @@
 
     </div>
     <div id="maxine">
-      hello
+      Maxine animation goes here
     </div>
   </div>
+  <div id= "cardContainer" class= "cardContainer">
+  <div id="card" class="card">
+
+  
     <div id="projectFrontDiv" class="projectFrontDiv">
       <h1><u>Projects</u></h1>
       <div id="sinatra" class="turn">Sinatra</div>
@@ -102,5 +143,11 @@
       <div id="js" class="turn">Javascript</div>
       <div id="react" class="turn">React</div>
     </div>
+    <div id="projectBackDiv" class="projectBackDiv">
+      
+     hello
+    </div>
+  </div>
+
   </body>
 </html>
