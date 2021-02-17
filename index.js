@@ -62,9 +62,18 @@ console.log("need to solve this problem")
             <button id ="restart" onclick = "restart()"> Projects </button>`
             break;
             case "react":
-              card.innerHTML = `this is my "react app description <br>
+              card.innerHTML = `this is my react app description <br>
               <button id ="restart" onclick = "restart()"> Projects </button>`
               break;
-     }
-     //chave maxine say something with each click
-   }
+     }}
+
+     function restart(){
+      let card = document.getElementById("card")
+      card.innerHTML = `<div id="projectFrontDiv" class="projectFrontDiv">
+      <h1><u>Projects</u></h1>
+      <div id="sinatra" class="turn" onclick = "check(event)">Sinatra</div>
+      <div id="ruby" class="turn" onclick = "check(event)">Ruby on Rails</div>
+      <div id="js" class="turn" onclick = "check(event)">Javascript</div>
+      <div id="react" class="turn" onclick = "check(event)">React</div>
+    </div>`
+    }
