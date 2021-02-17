@@ -47,9 +47,19 @@ console.log("need to solve this problem")
      let card = document.getElementById("card")
      //use event.target.value and a switch case statement to determine the innerhtml of front
 
-     let name = event.target.getAttribute('name')
-     switch(name){
+     let id= event.target.getAttribute('id')
+     switch(id){
        case "sinatra":
          card.innerHTML = `this is my sinatra app description`
+         break;
+         case "ruby":
+          card.innerHTML = `this is my ruby app description`
+          break;
+          case "js":
+            card.innerHTML = `this is my js app description`
+            break;
+            case "react":
+              card.innerHTML = `this is my "react app description`
+              break;
      }
    }
