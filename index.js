@@ -42,3 +42,14 @@ console.log("need to solve this problem")
                 break;
   }
    }
+
+   function check(event){
+     let card = document.getElementById("card")
+     //use event.target.value and a switch case statement to determine the innerhtml of front
+
+     let name = event.target.getAttribute('name')
+     switch(name){
+       case "sinatra":
+         card.innerHTML = `this is my sinatra app description`
+     }
+   }

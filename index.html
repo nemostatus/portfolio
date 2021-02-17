@@ -99,9 +99,9 @@
         transition: all 0.5% ease 
         }
 
-        .card:hover{
+        /* .card:hover{
           transform: rotateY(180deg);
-        }
+        } */
     </style>
   </head>
   <body>
@@ -138,11 +138,12 @@
   
     <div id="projectFrontDiv" class="projectFrontDiv">
       <h1><u>Projects</u></h1>
-      <div id="sinatra" class="turn">Sinatra</div>
+      <div id="sinatra" class="turn" name="sinatra" onclick = "check(event)">Sinatra</div>
       <div id="ruby" class="turn">Ruby on Rails</div>
       <div id="js" class="turn">Javascript</div>
       <div id="react" class="turn">React</div>
     </div>
+
     <div id="projectBackDiv" class="projectBackDiv">
       
      hello
