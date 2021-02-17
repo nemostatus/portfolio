@@ -52,18 +52,22 @@ console.log("need to solve this problem")
        case "sinatra":
          card.innerHTML = `this is my sinatra app description<br>
          <button id ="restart" onclick = "restart()"> Projects </button>`
+         speech("sinatra")
          break;
          case "ruby":
           card.innerHTML = `this is my ruby app description <br>
           <button id ="restart" onclick = "restart()"> Projects </button>`
+          speech("ruby")
           break;
           case "js":
             card.innerHTML = `this is my js app description <br>
             <button id ="restart" onclick = "restart()"> Projects </button>`
+            speech("javascript")
             break;
             case "react":
               card.innerHTML = `this is my react app description <br>
               <button id ="restart" onclick = "restart()"> Projects </button>`
+              speech("react")
               break;
      }}
 
