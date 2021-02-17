@@ -50,16 +50,21 @@ console.log("need to solve this problem")
      let id= event.target.getAttribute('id')
      switch(id){
        case "sinatra":
-         card.innerHTML = `this is my sinatra app description`
+         card.innerHTML = `this is my sinatra app description<br>
+         <button id ="restart" onclick = "restart()"> Projects </button>`
          break;
          case "ruby":
-          card.innerHTML = `this is my ruby app description`
+          card.innerHTML = `this is my ruby app description <br>
+          <button id ="restart" onclick = "restart()"> Projects </button>`
           break;
           case "js":
-            card.innerHTML = `this is my js app description`
+            card.innerHTML = `this is my js app description <br>
+            <button id ="restart" onclick = "restart()"> Projects </button>`
             break;
             case "react":
-              card.innerHTML = `this is my "react app description`
+              card.innerHTML = `this is my "react app description <br>
+              <button id ="restart" onclick = "restart()"> Projects </button>`
               break;
      }
+     //chave maxine say something with each click
    }
