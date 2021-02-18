@@ -142,6 +142,13 @@ let ratio = arr.length/3
 
 if(count < ratio){
   count++
+  if( count/2%1===0){
+      
+    maxine.innerHTML = `<img src = "./sprites/cat1.png">`}
+else{
+ 
+    maxine.innerHTML = `<img src = "./sprites/cat2.png">`
+  }
 console.log(count)
 }
 setTimeout(()=>{animation(input)},1000)}
@@ -149,13 +156,7 @@ setTimeout(()=>{animation(input)},1000)}
   // setTimeout( ()=>{
     //     console.log("count",count)
     //     count++
-    //    if( count/2%1===0){
-      
-    //     maxine.innerHTML = `<img src = "./sprites/cat1.png">`}
-    // else{
-     
-    //     maxine.innerHTML = `<img src = "./sprites/cat2.png">`
-    //   }
+   
 // },1000)}}
    
    
