@@ -50,14 +50,16 @@ console.log("need to solve this problem")
      let id= event.target.getAttribute('id')
      switch(id){
        case "sinatra":
-         card.innerHTML = `this is my sinatra app description<br>
+         card.innerHTML = `Matthew built this Sinatra application for the purpose of a programming student to log their 
+         project ideas and rate them. <br>
          <button id ="restart" onclick = "restart()"> Projects </button>`
-         speech("sinatra")
+         speech("Matthew built this Sinatra application for the purpose of a programming student to log their \
+         project ideas and rate them" )
          break;
          case "ruby":
           card.innerHTML = `this is my ruby app description <br>
           <button id ="restart" onclick = "restart()"> Projects </button>`
-          speech("ruby")
+          speech("ruby on rails")
           break;
           case "js":
             card.innerHTML = `this is my js app description <br>
