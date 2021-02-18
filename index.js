@@ -36,8 +36,8 @@ console.log("text to speech is off")
         <h1><span class="material-icons" style="font-size:36px">
         face_retouching_natural
         </span><u>Maxine says:</u> </h1>
-        I'm maxine. I'm here to help you navigate matthew's portfolio. `;
-        speech(" I'm maxine. I'm here to help you navigate matthew's portfolio. ")
+        I'm maxine the cat. I'm here to help you navigate matthew's portfolio. `;
+        speech(" I'm maxine the cat. I'm here to help you navigate matthew's portfolio. ")
         break;
         case "nav":
             box.innerHTML = `
