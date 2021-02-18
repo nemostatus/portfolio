@@ -22,25 +22,33 @@ console.log("need to solve this problem")
       case "about":
       box.innerHTML = 
       `
-      <h1><u>Maxine says:</u> </h1>
+      <h1><span class="material-icons" style="font-size:36px">
+      face_retouching_natural
+      </span><u>Maxine says:</u> </h1>
       <p>Matthew is a full stack developer who created me and the other projects below.  <p>`
     speech("Matthew is a full stack developer who created me and the other projects below. ");
       break;
       case "maxine":
         box.innerHTML = `
-        <h1><u>Maxine says:</u> </h1>
+        <h1><span class="material-icons" style="font-size:36px">
+        face_retouching_natural
+        </span><u>Maxine says:</u> </h1>
         I'm maxine. I'm here to help you navigate matthew's portfolio. `;
         speech(" I'm maxine. I'm here to help you navigate matthew's portfolio. ")
         break;
         case "nav":
             box.innerHTML = `
-            <h1><u>Maxine says:</u> </h1>
+            <h1><span class="material-icons" style="font-size:36px">
+            face_retouching_natural
+            </span><u>Maxine says:</u> </h1>
             Choose any option to get info on Matt's portfolio  `;
             speech("Choose any option to get info on Matt's portfolio  ")
             break;
             case "project":
                 box.innerHTML = `
-                <h1><u>Maxine says:</u> </h1>
+                <h1><span class="material-icons" style="font-size:36px">
+                face_retouching_natural
+                </span><u>Maxine says:</u> </h1>
                Click on one of the four projects below to learn more.  `;
                 speech("   Click on one of the four projects below to learn more  ")
                 break;
