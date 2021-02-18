@@ -56,3 +56,13 @@ https://github.com/nemostatus/sinatra-application
         back<br>
        
        changing it up creating one big div that is dynamic and fills up when selected from dropdown list
+
+       TO DOS
+       ---------
+       1. create a button that turns on/off text to speech part of app
+       2. make text to speech occur on first click not 2nd one
+       3. have divs not shift when the dev tools is brought up
+       4. Add font awesome icons 
+       5. Have greeting depending on the day like in your social anxiety app
+
+
