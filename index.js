@@ -136,13 +136,18 @@ console.log("text to speech is off")
     }
 
     function animation(input){
+     
     let maxine = document.getElementById("maxine")
 let arr = input.split(' ')
-let ratio = arr.length/3
+let ratio = Math.round(arr.length/3)
 
 if(count < ratio){
   count++
-  if( count/2%1===0){
+  if(count === ratio){
+    count = 0
+    return
+    }
+  else if( count/2%1===0){
       
     maxine.innerHTML = `<img src = "./sprites/cat1.png">`}
 else{
@@ -151,7 +156,8 @@ else{
   }
 console.log(count)
 }
-setTimeout(()=>{animation(input)},500)}
+setTimeout(()=>{animation(input)},500)
+}
 // while(count < ratio){
   // setTimeout( ()=>{
     //     console.log("count",count)
