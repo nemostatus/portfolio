@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", ()=>{
+  greeting()
+})
+
 function speech(message){
 let synth = window.speechSynthesis
 let voices = synth.getVoices()
@@ -90,4 +94,18 @@ console.log("need to solve this problem")
       <div id="js" class="turn" onclick = "check(event)">Javascript</div>
       <div id="react" class="turn" onclick = "check(event)">React</div>
     </div>`
+    }
+
+    function greeting() {
+      let date = new Date();
+      let time = date.getHours();
+      let item = document.getElementById("greet");
+
+    if (time < 6) {
+        item.innerHTML = `<h2> <i class="fas fa-moon" style='font-size:44px; color: gold'></i> Hello night owl!</h2> `;
+      } else if (time < 19) {
+      item.innerHTML = `<h2> <i class="fas fa-sun" style='font-size:44px; color: gold'></i> Good Day!</h2> `;
+      } else {
+       item.innerHTML = `<h2> <i class="fas fa-moon" style='font-size:44px; color: gold'></i> Good Night!</h2> `;
+      }
     }
