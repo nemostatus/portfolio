@@ -50,7 +50,7 @@ console.log("need to solve this problem")
      let id= event.target.getAttribute('id')
      switch(id){
        case "sinatra":
-         card.innerHTML = `Matthew built this Sinatra application for the purpose of a programming student to log their 
+         card.innerHTML = `Matthew built this sinatra application for the purpose of a programming student to log their 
          project ideas and rate them.  <a href= "https://github.com/nemostatus/sinatra-application" target="_blank"> Project Logger </a><br>
         
          <button id ="restart" onclick = "restart()"> Projects </button>`
@@ -59,21 +59,25 @@ console.log("need to solve this problem")
          break;
          case "ruby":
           card.innerHTML = `Matthew built this ruby on rails application in order for any future movers to view if specific vehicles
-          have been recently infested with any insects to avoid them 
+          have been recently infested with any insects to avoid them. 
            <a href= "https://github.com/nemostatus/move_atlas" target="_blank"> Moving Vehicle Tracker </a><br>
           <button id ="restart" onclick = "restart()"> Projects </button>`
           speech("Matthew built this ruby on rails application in order for any future movers to view if specific vehicles\
           have been recently infested with any insects to avoid them ")
           break;
           case "js":
-            card.innerHTML = `this is my js app description <br>
+            card.innerHTML = `Matthew built this javascript application to help users overcome any social anxiety they may have 
+           by accepting any social challenges other users post. 
+           <a href= "https://github.com/nemostatus/SA_Challenges_Rails_JS" target="_blank"> SA Challenges </a> <br>
             <button id ="restart" onclick = "restart()"> Projects </button>`
-            speech("javascript")
+            speech("Matthew built this javascript application to help users overcome any social anxiety they may have \
+            by accepting any social challenges other users post. ")
             break;
             case "react":
-              card.innerHTML = `this is my react app description <br>
+              card.innerHTML = `Matthew built this choose your own adventure react application. 
+              <a href= "https://github.com/nemostatus/pathfinder" target="_blank"> Pathfinder </a> <br>
               <button id ="restart" onclick = "restart()"> Projects </button>`
-              speech("react")
+              speech("Matthew built this choose your own adventure react application.")
               break;
      }}
 
