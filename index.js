@@ -151,7 +151,7 @@ else{
   }
 console.log(count)
 }
-setTimeout(()=>{animation(input)},1000)}
+setTimeout(()=>{animation(input)},500)}
 // while(count < ratio){
   // setTimeout( ()=>{
     //     console.log("count",count)
