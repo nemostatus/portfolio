@@ -102,7 +102,7 @@ console.log("need to solve this problem")
       let item = document.getElementById("greet");
 
     if (time < 6) {
-        item.innerHTML = `<h2><span class="material-icons" style="font-size:36px; color: gold">
+        item.innerHTML = `<h2><span class="material-icons" style="font-size:36px;color: gold">
         dark_mode
         </span> Hello night owl!</h2> `;
       } else if (time < 19) {
