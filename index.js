@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 })
 
 let switched = "off"
-
+let count = 0
 
 function speech(message){
 let synth = window.speechSynthesis
@@ -30,7 +30,7 @@ console.log("text to speech is off")
       </span><u>Maxine says:</u> </h1>
       <p>Matthew is a full stack developer who created me and the other projects below.  <p>`
     speech("Matthew is a full stack developer who created me and the other projects below. ");
-    animation("Matthew is a full stack developer who created me and the other projects below.")
+   animation("Matthew is a full stack developer who created me and the other projects below.")
       break;
       case "maxine":
         box.innerHTML = `
@@ -136,8 +136,37 @@ console.log("text to speech is off")
     }
 
     function animation(input){
+    let maxine = document.getElementById("maxine")
 let arr = input.split(' ')
 let ratio = arr.length/3
-console.log(arr,Math.round(ratio));
 
-    }
+if(count < ratio){
+  count++
+console.log(count)
+}
+setTimeout(()=>{animation(input)},1000)}
+// while(count < ratio){
+  // setTimeout( ()=>{
+    //     console.log("count",count)
+    //     count++
+    //    if( count/2%1===0){
+      
+    //     maxine.innerHTML = `<img src = "./sprites/cat1.png">`}
+    // else{
+     
+    //     maxine.innerHTML = `<img src = "./sprites/cat2.png">`
+    //   }
+// },1000)}}
+   
+   
+// while(count < ratio )
+//   setTimeout( ()=>{
+//     console.log("count",count)
+//     if(count < ratio  && count/2%1===0){
+//     count++;
+//     maxine.innerHTML = `<img src = "./sprites/cat1.png">`}
+// else{
+//   count++;
+//     maxine.innerHTML = `<img src = "./sprites/cat2.png">`
+//   }
+// },1000)}
