@@ -64,5 +64,7 @@ https://github.com/nemostatus/sinatra-application
        3. have divs not shift when the dev tools is brought up
        4. Add font awesome icons x(google mats)
        5. Have greeting depending on the day like in your social anxiety app x
+       6. need to put animation when clicking the object
+       7 have the ability to turn off animation with animation switch similar to text to speech switch
 
 
