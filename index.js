@@ -106,8 +106,12 @@ console.log("need to solve this problem")
         dark_mode
         </span> Hello night owl!</h2> `;
       } else if (time < 19) {
-      item.innerHTML = `<h2> <i class="fas fa-sun" style='font-size:36px; color: gold'></i> Good Day!</h2> `;
+      item.innerHTML = `<h2> <span class="material-icons" style="font-size:36px; color: gold">
+      brightness_low
+      </span>Good Day!</h2> `;
       } else {
-       item.innerHTML = `<h2> <i class="fas fa-moon" style='font-size:44px; color: gold'></i> Good Night!</h2> `;
+       item.innerHTML = `<h2><span class="material-icons" style="font-size:36px; color: gold">
+       dark_mode
+       </span> Good Night!</h2> `;
       }
     }
