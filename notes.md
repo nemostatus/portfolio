@@ -62,7 +62,7 @@ https://github.com/nemostatus/sinatra-application
        1. create a button that turns on/off text to speech part of app
        2. make text to speech occur on first click not 2nd one
        3. have divs not shift when the dev tools is brought up
-       4. Add font awesome icons 
-       5. Have greeting depending on the day like in your social anxiety app
+       4. Add font awesome icons x(google mats)
+       5. Have greeting depending on the day like in your social anxiety app x
 
 

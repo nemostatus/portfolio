@@ -2,16 +2,23 @@ document.addEventListener("DOMContentLoaded", ()=>{
   greeting()
 })
 
+let switched = "off"
+
+
+function switchingOff(){
+  switched = "off"
+}
+
 function speech(message){
 let synth = window.speechSynthesis
 let voices = synth.getVoices()
 
  let utterThis = new SpeechSynthesisUtterance(message)
-if(voices.length!=0){
+if(voices.length!=0 && switched === "on"){
  utterThis.voice = voices[3]
 synth.speak(utterThis)}
 else{
-console.log("need to solve this problem")
+console.log("text to speech is off")
   }}
  
   function changeFunc() {
@@ -52,6 +59,13 @@ console.log("need to solve this problem")
                Click on one of the four projects below to learn more.  `;
                 speech("   Click on one of the four projects below to learn more  ")
                 break;
+               case "on":
+                switched = "on"
+                break;
+                case "off":
+                  switched = "off"
+                  break;
+
   }
    }
 
