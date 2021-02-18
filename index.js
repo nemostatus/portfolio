@@ -5,10 +5,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
 let switched = "off"
 
 
-function switchingOff(){
-  switched = "off"
-}
-
 function speech(message){
 let synth = window.speechSynthesis
 let voices = synth.getVoices()
