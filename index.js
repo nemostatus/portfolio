@@ -51,15 +51,19 @@ console.log("need to solve this problem")
      switch(id){
        case "sinatra":
          card.innerHTML = `Matthew built this Sinatra application for the purpose of a programming student to log their 
-         project ideas and rate them. <br>
+         project ideas and rate them.  <a href= "https://github.com/nemostatus/sinatra-application" target="_blank"> Project Logger </a><br>
+        
          <button id ="restart" onclick = "restart()"> Projects </button>`
          speech("Matthew built this Sinatra application for the purpose of a programming student to log their \
          project ideas and rate them" )
          break;
          case "ruby":
-          card.innerHTML = `this is my ruby app description <br>
+          card.innerHTML = `Matthew built this ruby on rails application in order for any future movers to view if specific vehicles
+          have been recently infested with any insects to avoid them 
+           <a href= "https://github.com/nemostatus/move_atlas" target="_blank"> Moving Vehicle Tracker </a><br>
           <button id ="restart" onclick = "restart()"> Projects </button>`
-          speech("ruby on rails")
+          speech("Matthew built this ruby on rails application in order for any future movers to view if specific vehicles\
+          have been recently infested with any insects to avoid them ")
           break;
           case "js":
             card.innerHTML = `this is my js app description <br>
