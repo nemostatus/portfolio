@@ -39,6 +39,7 @@ console.log("text to speech is off")
         </span><u>Maxine says:</u> </h1>
         I'm maxine the cat. I'm here to help you navigate matthew's portfolio. `;
         speech(" I'm maxine the cat. I'm here to help you navigate matthew's portfolio. ")
+        animation(" I'm maxine the cat. I'm here to help you navigate matthew's portfolio. ")
         break;
         case "nav":
             box.innerHTML = `
@@ -47,6 +48,7 @@ console.log("text to speech is off")
             </span><u>Maxine says:</u> </h1>
             Choose any option to get info on Matt's portfolio  `;
             speech("Choose any option to get info on Matt's portfolio  ")
+            animation(" Choose any option to get info on Matt's portfolio  ")
             break;
             case "project":
                 box.innerHTML = `
@@ -55,6 +57,7 @@ console.log("text to speech is off")
                 </span><u>Maxine says:</u> </h1>
                Click on one of the four projects below to learn more.  `;
                 speech("   Click on one of the four projects below to learn more  ")
+                animation("   Click on one of the four projects below to learn more  ")
                 break;
                case "on":
                 switched = "on"
@@ -139,7 +142,7 @@ console.log("text to speech is off")
      
     let maxine = document.getElementById("maxine")
 let arr = input.split(' ')
-let ratio = Math.round(arr.length/3)
+let ratio = Math.round((arr.length+3)/2 )
 
 if(count < ratio){
   count++
