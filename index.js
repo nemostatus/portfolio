@@ -30,7 +30,7 @@ console.log("text to speech is off")
       </span><u>Maxine says:</u> </h1>
       <p>Matthew is a full stack developer who created me and the other projects below.  <p>`
     speech("Matthew is a full stack developer who created me and the other projects below. ");
-    animation("Matthew is a full stack developer who created me and the other projects below. ")
+    animation("Matthew is a full stack developer who created me and the other projects below.")
       break;
       case "maxine":
         box.innerHTML = `
@@ -136,8 +136,8 @@ console.log("text to speech is off")
     }
 
     function animation(input){
-let arr = input.split('')
+let arr = input.split(' ')
 let ratio = arr.length/3
-console.log(Math.round(ratio));
+console.log(arr,Math.round(ratio));
 
     }
